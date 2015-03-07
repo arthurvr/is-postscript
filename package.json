@@ -1,0 +1,33 @@
+{
+  "name": "is-postscript",
+  "version": "0.0.0",
+  "description": "Check if a Buffer/Uint8Array is a postscript",
+  "keywords": [
+    "postscript",
+    "ps",
+    "detect",
+    "detection",
+    "file",
+    "type",
+    "magic number",
+    "buffer",
+    "Uint8Array",
+    "is"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/is-postscript",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "read-chunk": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
