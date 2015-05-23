@@ -2,11 +2,15 @@
 
 > Check if a Buffer/Uint8Array is a postscript
 
-## Usage
+
+## Installation
 
 ```
 $ npm install --save is-postscript
 ```
+
+
+## Usage
 
 ```js
 var readChunk = require('read-chunk'); // npm install read-chunk
@@ -17,6 +21,7 @@ isPostscript(buffer);
 //=> true
 ```
 
+
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)

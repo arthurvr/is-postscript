@@ -1,5 +1,4 @@
 'use strict';
-
 var test = require('ava');
 var readChunk = require('read-chunk');
 var isPostscript = require('../');
