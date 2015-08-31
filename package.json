@@ -21,11 +21,12 @@
   ],
   "repository": "arthurvr/is-postscript",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "xo && node test/test.js"
   },
   "devDependencies": {
     "ava": "^0.0.4",
-    "read-chunk": "^1.0.1"
+    "read-chunk": "^1.0.1",
+    "xo": "*"
   },
   "engines": {
     "node": ">=0.10.0"
