@@ -8,6 +8,8 @@ function check(filename) {
 }
 
 test(function (t) {
-	t.assert(!check('test/fixture/fixture.mp4'));
-	t.assert(check('test/fixture/fixture.ps'));
+	t.false(check('test/fixture/fixture.mp4'));
+	t.true(check('test/fixture/fixture.ps'));
+
+	t.end();
 });
