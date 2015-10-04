@@ -21,7 +21,7 @@
   ],
   "repository": "arthurvr/is-postscript",
   "scripts": {
-    "test": "xo && node test/test.js"
+    "test": "xo && ava"
   },
   "devDependencies": {
     "ava": "*",
