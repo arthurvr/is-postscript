@@ -13,11 +13,11 @@ $ npm install --save is-postscript
 ## Usage
 
 ```js
-var readChunk = require('read-chunk'); // npm install read-chunk
-var isPostscript = require('is-postscript');
-var buffer = readChunk.sync('program.ps', 0, 2);
+const readChunk = require('read-chunk'); // npm install read-chunk
+const isPostscript = require('is-postscript');
+const buf = readChunk.sync('program.ps', 0, 2);
 
-isPostscript(buffer);
+isPostscript(buf);
 //=> true
 ```
 
